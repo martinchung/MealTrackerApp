@@ -1,6 +1,6 @@
 //
 //  AppDelegate.swift
-//  SiWCApp
+//  MealTrackerApp
 //
 //  Created by Martin Chung on 2020-06-13.
 //  Copyright © 2020 Martin Chung. All rights reserved.

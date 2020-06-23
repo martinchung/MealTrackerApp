@@ -16,7 +16,7 @@
 		5BD6D45E24955E0300742626 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BD6D45C24955E0300742626 /* Main.storyboard */; };
 		5BD6D46024955E0400742626 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5BD6D45F24955E0400742626 /* Assets.xcassets */; };
 		5BD6D46324955E0400742626 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BD6D46124955E0400742626 /* LaunchScreen.storyboard */; };
-		5BD6D46E24955E0500742626 /* SiWCAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BD6D46D24955E0500742626 /* SiWCAppTests.swift */; };
+		5BD6D46E24955E0500742626 /* MealTrackerAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BD6D46D24955E0500742626 /* MealTrackerAppTests.swift */; };
 		5BFCA8172497EAA5008BF06F /* RatingControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BFCA8162497EAA5008BF06F /* RatingControl.swift */; };
 /* End PBXBuildFile section */
 
@@ -34,7 +34,7 @@
 		5B3B770F249944E800826B4C /* Meal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Meal.swift; sourceTree = "<group>"; };
 		5B3B77112499507E00826B4C /* MealTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealTableViewCell.swift; sourceTree = "<group>"; };
 		5B3B77132499570300826B4C /* MealTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealTableViewController.swift; sourceTree = "<group>"; };
-		5BD6D45324955E0300742626 /* SiWCApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SiWCApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5BD6D45324955E0300742626 /* MealTrackerApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MealTrackerApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5BD6D45624955E0300742626 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5BD6D45824955E0300742626 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		5BD6D45A24955E0300742626 /* MealViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealViewController.swift; sourceTree = "<group>"; };
@@ -42,8 +42,8 @@
 		5BD6D45F24955E0400742626 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5BD6D46224955E0400742626 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5BD6D46424955E0400742626 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5BD6D46924955E0500742626 /* SiWCAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SiWCAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		5BD6D46D24955E0500742626 /* SiWCAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SiWCAppTests.swift; sourceTree = "<group>"; };
+		5BD6D46924955E0500742626 /* MealTrackerAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MealTrackerAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5BD6D46D24955E0500742626 /* MealTrackerAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealTrackerAppTests.swift; sourceTree = "<group>"; };
 		5BD6D46F24955E0500742626 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5BFCA8162497EAA5008BF06F /* RatingControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingControl.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -69,8 +69,8 @@
 		5BD6D44A24955E0300742626 = {
 			isa = PBXGroup;
 			children = (
-				5BD6D45524955E0300742626 /* SiWCApp */,
-				5BD6D46C24955E0500742626 /* SiWCAppTests */,
+				5BD6D45524955E0300742626 /* MealTrackerApp */,
+				5BD6D46C24955E0500742626 /* MealTrackerAppTests */,
 				5BD6D45424955E0300742626 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -78,13 +78,13 @@
 		5BD6D45424955E0300742626 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				5BD6D45324955E0300742626 /* SiWCApp.app */,
-				5BD6D46924955E0500742626 /* SiWCAppTests.xctest */,
+				5BD6D45324955E0300742626 /* MealTrackerApp.app */,
+				5BD6D46924955E0500742626 /* MealTrackerAppTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		5BD6D45524955E0300742626 /* SiWCApp */ = {
+		5BD6D45524955E0300742626 /* MealTrackerApp */ = {
 			isa = PBXGroup;
 			children = (
 				5B3B770F249944E800826B4C /* Meal.swift */,
@@ -99,24 +99,24 @@
 				5BD6D46124955E0400742626 /* LaunchScreen.storyboard */,
 				5BD6D46424955E0400742626 /* Info.plist */,
 			);
-			path = SiWCApp;
+			path = MealTrackerApp;
 			sourceTree = "<group>";
 		};
-		5BD6D46C24955E0500742626 /* SiWCAppTests */ = {
+		5BD6D46C24955E0500742626 /* MealTrackerAppTests */ = {
 			isa = PBXGroup;
 			children = (
-				5BD6D46D24955E0500742626 /* SiWCAppTests.swift */,
+				5BD6D46D24955E0500742626 /* MealTrackerAppTests.swift */,
 				5BD6D46F24955E0500742626 /* Info.plist */,
 			);
-			path = SiWCAppTests;
+			path = MealTrackerAppTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		5BD6D45224955E0300742626 /* SiWCApp */ = {
+		5BD6D45224955E0300742626 /* MealTrackerApp */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5BD6D47224955E0500742626 /* Build configuration list for PBXNativeTarget "SiWCApp" */;
+			buildConfigurationList = 5BD6D47224955E0500742626 /* Build configuration list for PBXNativeTarget "MealTrackerApp" */;
 			buildPhases = (
 				5BD6D44F24955E0300742626 /* Sources */,
 				5BD6D45024955E0300742626 /* Frameworks */,
@@ -126,14 +126,14 @@
 			);
 			dependencies = (
 			);
-			name = SiWCApp;
+			name = MealTrackerApp;
 			productName = SiWCApp;
-			productReference = 5BD6D45324955E0300742626 /* SiWCApp.app */;
+			productReference = 5BD6D45324955E0300742626 /* MealTrackerApp.app */;
 			productType = "com.apple.product-type.application";
 		};
-		5BD6D46824955E0500742626 /* SiWCAppTests */ = {
+		5BD6D46824955E0500742626 /* MealTrackerAppTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5BD6D47524955E0500742626 /* Build configuration list for PBXNativeTarget "SiWCAppTests" */;
+			buildConfigurationList = 5BD6D47524955E0500742626 /* Build configuration list for PBXNativeTarget "MealTrackerAppTests" */;
 			buildPhases = (
 				5BD6D46524955E0500742626 /* Sources */,
 				5BD6D46624955E0500742626 /* Frameworks */,
@@ -144,9 +144,9 @@
 			dependencies = (
 				5BD6D46B24955E0500742626 /* PBXTargetDependency */,
 			);
-			name = SiWCAppTests;
+			name = MealTrackerAppTests;
 			productName = SiWCAppTests;
-			productReference = 5BD6D46924955E0500742626 /* SiWCAppTests.xctest */;
+			productReference = 5BD6D46924955E0500742626 /* MealTrackerAppTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -168,7 +168,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 5BD6D44E24955E0300742626 /* Build configuration list for PBXProject "SiWCApp" */;
+			buildConfigurationList = 5BD6D44E24955E0300742626 /* Build configuration list for PBXProject "MealTrackerApp" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -181,8 +181,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				5BD6D45224955E0300742626 /* SiWCApp */,
-				5BD6D46824955E0500742626 /* SiWCAppTests */,
+				5BD6D45224955E0300742626 /* MealTrackerApp */,
+				5BD6D46824955E0500742626 /* MealTrackerAppTests */,
 			);
 		};
 /* End PBXProject section */
@@ -226,7 +226,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5BD6D46E24955E0500742626 /* SiWCAppTests.swift in Sources */,
+				5BD6D46E24955E0500742626 /* MealTrackerAppTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -235,7 +235,7 @@
 /* Begin PBXTargetDependency section */
 		5BD6D46B24955E0500742626 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 5BD6D45224955E0300742626 /* SiWCApp */;
+			target = 5BD6D45224955E0300742626 /* MealTrackerApp */;
 			targetProxy = 5BD6D46A24955E0500742626 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -380,12 +380,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = JT7RJXF3BS;
-				INFOPLIST_FILE = SiWCApp/Info.plist;
+				INFOPLIST_FILE = MealTrackerApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.studioimpossible.SiWCApp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.studioimpossible.MealTrackerApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -398,12 +398,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = JT7RJXF3BS;
-				INFOPLIST_FILE = SiWCApp/Info.plist;
+				INFOPLIST_FILE = MealTrackerApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.studioimpossible.SiWCApp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.studioimpossible.MealTrackerApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -416,7 +416,8 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = SiWCAppTests/Info.plist;
+				DEVELOPMENT_TEAM = JT7RJXF3BS;
+				INFOPLIST_FILE = MealTrackerAppTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -427,7 +428,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SiWCApp.app/SiWCApp";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MealTrackerApp.app/MealTrackerApp";
 			};
 			name = Debug;
 		};
@@ -437,7 +438,8 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = SiWCAppTests/Info.plist;
+				DEVELOPMENT_TEAM = JT7RJXF3BS;
+				INFOPLIST_FILE = MealTrackerAppTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -448,14 +450,14 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SiWCApp.app/SiWCApp";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MealTrackerApp.app/MealTrackerApp";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		5BD6D44E24955E0300742626 /* Build configuration list for PBXProject "SiWCApp" */ = {
+		5BD6D44E24955E0300742626 /* Build configuration list for PBXProject "MealTrackerApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5BD6D47024955E0500742626 /* Debug */,
@@ -464,7 +466,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5BD6D47224955E0500742626 /* Build configuration list for PBXNativeTarget "SiWCApp" */ = {
+		5BD6D47224955E0500742626 /* Build configuration list for PBXNativeTarget "MealTrackerApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5BD6D47324955E0500742626 /* Debug */,
@@ -473,7 +475,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5BD6D47524955E0500742626 /* Build configuration list for PBXNativeTarget "SiWCAppTests" */ = {
+		5BD6D47524955E0500742626 /* Build configuration list for PBXNativeTarget "MealTrackerAppTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5BD6D47624955E0500742626 /* Debug */,

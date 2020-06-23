@@ -1,15 +1,15 @@
 //
-//  SiWCAppTests.swift
-//  SiWCAppTests
+//  MealTrackerAppTests.swift
+//  MealTrackerAppTests
 //
 //  Created by Martin Chung on 2020-06-13.
 //  Copyright © 2020 Martin Chung. All rights reserved.
 //
 
 import XCTest
-@testable import SiWCApp
+@testable import MealTrackerApp
 
-class SiWCAppTests: XCTestCase {
+class MealTrackerAppTests: XCTestCase {
     
     func testMealInitializationSucceeds() {
         // Zero rating
@@ -34,8 +34,6 @@ class SiWCAppTests: XCTestCase {
         XCTAssertNil(emptyStringMeal)
         
     }
-    
-    
     
     
 //    override func setUp() {
